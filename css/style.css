@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+li{
+    list-style: none;
+}
+button, input{
+    outline: none;
+}
+body{
+    background: #dfe6f4;
+}
+.hero__wrapper{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 150px; 
+    justify-content: center;
+
+}
+h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #0669ea;
+}
+h4{
+    font-size: 24px;
+    font-weight: normal;
+    color: #1c1e21;
+}
+a{
+    font-size: 15px;
+    margin-left: 75px;
+}
+.hero__topic{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #0000001a, 0px 8px 16px #0000001a;
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px  28px;
+    width: 396px;
+}
+input{
+    width: 302px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #dddfe2;
+}
+.form__btn,
+.logout-btn{
+    width: 300px;        
+    padding: 8px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: none;
+    background: #0669ea;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.form__btn:active,
+.button:active,
+.logout-btn:active{
+    transform: scale(.96);
+}
+.button{
+    display: flex;
+    width: 200px;        
+    padding: 8px;
+    margin-left: 290px;
+    margin-top: 30px;
+    border: none;
+    background: #0669ea;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.title{
+    padding: 200px 600px;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #0669ea;
+}
